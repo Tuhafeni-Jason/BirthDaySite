@@ -9,6 +9,8 @@ export default function BirthdayCelebration() {
 
   return (
     <div className="flex flex-col items-center">
+
+
       <motion.div
         initial={{ scale: 0, rotate: -10 }}
         animate={{ scale: 1, rotate: 0 }}
@@ -55,7 +57,7 @@ export default function BirthdayCelebration() {
             </div>
 
             <div className="text-center text-white">
-              <p className="text-lg font-medium mb-4">Tap to {isCardOpen ? "close" : "open"} your card</p>
+              <p className="text-lg font-medium mb-4">Tap to {isCardOpen ? "close" : "open"} my message to you💌</p>
               <div className="flex justify-center">
                 <motion.div
                   animate={{
@@ -89,7 +91,7 @@ export default function BirthdayCelebration() {
             >
               <div className="text-center">
                 <p className="text-purple-700 mb-2">
-                Just wanted to remind you—you're my favorite person. My days are better, smiles are wider, and life is sweeter because of you.
+                On this day I just wanted to remind you—you're my favorite person. My days are better, smiles are wider, and life is sweeter because of you. I won't finish if I start explaining how much you mean to me, but I hope you know that you're loved beyond words and cherished every single day
                 </p>
                 <p className="text-pink-600 font-medium">I hope your birthday is full of love, magic, and everything that makes you smile 💖</p>
                 <div className="flex justify-center">
@@ -119,7 +121,7 @@ export default function BirthdayCelebration() {
       >
         <div className="text-center">
           <p className="text-lg text-purple-700 mb-4">
-          May every wish you make today come true. You deserve the world🌍. I’ll always be here to remind you of that.
+          May every wish you make today come true. You deserve the world🌍. I’ll always be here to remind you of that🫂🫶.
           </p>
           <div className="flex justify-center items-center gap-2">
             <p className="text-pink-600 font-medium">I love you💕, 🫂forever🫶</p>
