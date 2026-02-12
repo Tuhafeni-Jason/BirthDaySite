@@ -14,7 +14,7 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(true)
   const [bubbles, setBubbles] = useState([])
   const [showForYouBtn, setShowForYouBtn] = useState(false)
-  const birthdayDate = new Date("April 28, 2025") // Change this date accordingly
+  const birthdayDate = new Date("February 12, 2026") // Change this date accordingly
   const audioRef = useRef(null)
 
   // For testing
@@ -107,7 +107,7 @@ export default function Home() {
       </motion.div>}
 
       {/* You can change the background song if you want */}
-      <audio ref={audioRef} src="/birthday.mp3" preload="auto" loop />
+      <audio ref={audioRef} src="/tems.mp3" preload="auto" loop />
 
       {/* Decorative elements */}
       <div className="fixed top-0 left-0 w-full h-full pointer-events-none z-0 overflow-hidden">
