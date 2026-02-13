@@ -57,6 +57,7 @@ export default function BirthdayCelebration() {
             </div>
 
             <div className="text-center text-white">
+              <p className="text-lg font-medium mb-4">🎊Happiest of birthdays Susan🎊</p>
               <p className="text-lg font-medium mb-4">Tap to {isCardOpen ? "close" : "open"} my message to you💌</p>
               <div className="flex justify-center">
                 <motion.div
@@ -91,7 +92,7 @@ export default function BirthdayCelebration() {
             >
               <div className="text-center">
                 <p className="text-purple-700 mb-2">
-                On this day I just wanted to remind you—you're my favorite person. My days are better, smiles are wider, and life is sweeter because of you. I won't finish if I start explaining how much you mean to me, but I hope you know that you're loved beyond words and cherished every single day
+                <span style={{ color: 'black' }}> On this day I just wanted to remind you</span> <br />You're my favorite person. My days are better, smiles are wider, and life is sweeter because of you. I won't finish if I start explaining how much you mean to me, but I hope you know that you're loved beyond words and cherished every single day
                 </p>
                 <p className="text-pink-600 font-medium">I hope your birthday is full of love, magic, and everything that makes you smile 💖</p>
                 <div className="flex justify-center">
