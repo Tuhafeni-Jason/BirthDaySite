@@ -15,7 +15,7 @@ export default function Home() {
   const [bubbles, setBubbles] = useState([])
   const [showForYouBtn, setShowForYouBtn] = useState(false)
 
-  const birthdayDate = new Date("February 12, 2026")
+  const birthdayDate = new Date("February 14, 2026")
   const audioRef = useRef(null)
 
   // 1. Logic for generating bubbles and handling Loader
